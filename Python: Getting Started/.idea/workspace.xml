@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89ff1187-8f4c-4dc9-9ede-d3a1d29e30ac" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Functions, Files, Yield and Lambda/PyStudentManager.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Functions, Files, Yield and Lambda/nested_funcs.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Statements and other goodies/data_types.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Statements and other goodies/exceptions.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Functions, Files, Yield and Lambda/lambda.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Functions, Files, Yield and Lambda/yield.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/boolean_none.py" afterPath="$PROJECT_DIR$/Statements and other goodies/boolean_none.py" />
-      <change beforePath="$PROJECT_DIR$/break_continue.py" afterPath="$PROJECT_DIR$/Statements and other goodies/break_continue.py" />
-      <change beforePath="$PROJECT_DIR$/dictionaries.py" afterPath="$PROJECT_DIR$/Statements and other goodies/dictionaries.py" />
-      <change beforePath="$PROJECT_DIR$/exceptions.py" afterPath="$PROJECT_DIR$/Functions, Files, Yield and Lambda/Functions.py" />
-      <change beforePath="$PROJECT_DIR$/if.py" afterPath="$PROJECT_DIR$/Statements and other goodies/if.py" />
-      <change beforePath="$PROJECT_DIR$/integer_floats.py" afterPath="$PROJECT_DIR$/Statements and other goodies/integer_floats.py" />
-      <change beforePath="$PROJECT_DIR$/lists.py" afterPath="$PROJECT_DIR$/Statements and other goodies/lists.py" />
-      <change beforePath="$PROJECT_DIR$/loops.py" afterPath="$PROJECT_DIR$/Statements and other goodies/loops.py" />
-      <change beforePath="$PROJECT_DIR$/strings.py" afterPath="$PROJECT_DIR$/Statements and other goodies/strings.py" />
-      <change beforePath="$PROJECT_DIR$/types_in_python.py" afterPath="$PROJECT_DIR$/Statements and other goodies/types_in_python.py" />
-      <change beforePath="$PROJECT_DIR$/while.py" afterPath="$PROJECT_DIR$/Statements and other goodies/while.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PyStudentManager.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Functions, Files, Yield and Lambda/PyStudentManager.py">
+      <file leaf-file-name="lambda.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Functions, Files, Yield and Lambda/lambda.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="22" column="37" lean-forward="true" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+            <state relative-caret-position="182">
+              <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -64,6 +51,8 @@
         <option value="$PROJECT_DIR$/Functions, Files, Yield and Lambda/Functions.py" />
         <option value="$PROJECT_DIR$/Functions, Files, Yield and Lambda/nested_funcs.py" />
         <option value="$PROJECT_DIR$/Functions, Files, Yield and Lambda/PyStudentManager.py" />
+        <option value="$PROJECT_DIR$/Functions, Files, Yield and Lambda/yield.py" />
+        <option value="$PROJECT_DIR$/Functions, Files, Yield and Lambda/lambda.py" />
       </list>
     </option>
   </component>
@@ -142,7 +131,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.PyStudentManager">
+  <component name="RunManager" selected="Python.lambda">
     <configuration name="Functions" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -179,37 +168,19 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="exceptions" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="lambda" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Functions, Files, Yield and Lambda" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python Getting Started" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Statements and other goodies/exceptions.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="if" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Python Getting Started" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Statements and other goodies/if.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Functions, Files, Yield and Lambda/lambda.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -233,20 +204,38 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="yield" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Functions, Files, Yield and Lambda" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python Getting Started" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Functions, Files, Yield and Lambda/yield.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.if" />
-      <item index="1" class="java.lang.String" itemvalue="Python.exceptions" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Functions" />
-      <item index="3" class="java.lang.String" itemvalue="Python.PyStudentManager" />
-      <item index="4" class="java.lang.String" itemvalue="Python.nested_funcs" />
+      <item index="0" class="java.lang.String" itemvalue="Python.Functions" />
+      <item index="1" class="java.lang.String" itemvalue="Python.PyStudentManager" />
+      <item index="2" class="java.lang.String" itemvalue="Python.nested_funcs" />
+      <item index="3" class="java.lang.String" itemvalue="Python.yield" />
+      <item index="4" class="java.lang.String" itemvalue="Python.lambda" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.PyStudentManager" />
-        <item index="1" class="java.lang.String" itemvalue="Python.nested_funcs" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Functions" />
-        <item index="3" class="java.lang.String" itemvalue="Python.exceptions" />
-        <item index="4" class="java.lang.String" itemvalue="Python.if" />
+        <item index="0" class="java.lang.String" itemvalue="Python.lambda" />
+        <item index="1" class="java.lang.String" itemvalue="Python.yield" />
+        <item index="2" class="java.lang.String" itemvalue="Python.PyStudentManager" />
+        <item index="3" class="java.lang.String" itemvalue="Python.nested_funcs" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Functions" />
       </list>
     </recent_temporary>
   </component>
@@ -279,7 +268,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997923" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -404,8 +393,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Functions, Files, Yield and Lambda/PyStudentManager.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="22" column="37" lean-forward="true" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+        <state relative-caret-position="234">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functions, Files, Yield and Lambda/yield.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="16" column="36" lean-forward="false" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Functions, Files, Yield and Lambda/lambda.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
           <folding />
         </state>
       </provider>
