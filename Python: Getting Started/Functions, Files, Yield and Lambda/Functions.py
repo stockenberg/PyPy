@@ -14,6 +14,14 @@ test2(test="hallo", huhu="test")
 
 
 def function_with_args(value, argument="Test", more="test"):
+
+    '''
+    :param value: mixed This is a Param
+    :param argument: string this is a scnd param
+    :param more: integer more params
+    :return: Void
+    '''
+
     print(value)
     print(argument)
     print(more)
