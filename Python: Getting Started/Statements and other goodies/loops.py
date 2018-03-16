@@ -8,6 +8,12 @@ for x in range(len(names)):
     print(x)
     print(names[x])
 
+t = [1, 2, 3, 4, 5, 6]
+
+for key, value in enumerate(t):
+    print(key)
+    print(value)
+
 # Error - names is an list
 # print(range(names))
 print(range(len(names)))
