@@ -44,11 +44,12 @@ def generate_php_files():
 
 def help_func():
     print('''
+    Hello sweetheart, how can i assist you ? 
+    
     Arguments:
         -php   : Creates a PHP Class
         -help  : Shows Help
     ''')
-    pass
 
 
 if len(sys.argv) >= 2:
