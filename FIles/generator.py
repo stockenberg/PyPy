@@ -4,6 +4,8 @@ import sys
 import os
 import errno
 
+# TODO : no namespace if no subfolder...
+
 
 def class_scaffold():
     return '''<?php
@@ -24,12 +26,13 @@ def generate_php_files():
     files = tuple(sys.argv[2:])
     for file in files:
 
-        if not os.path.exists(os.path.dirname(file)):
-            try:
-                os.makedirs(os.path.dirname(file))
-            except OSError as exc:
-                if exc.errno != errno.EEXIST:
-                    raise
+        if len(file.split("/")) > 1:
+            if not os.path.exists(os.path.dirname(file)):
+                try:
+                    os.makedirs(os.path.dirname(file))
+                except OSError as exc:
+                    if exc.errno != errno.EEXIST:
+                        raise
 
         x = open(os.getcwd() + "/" + file + ".php", 'w+')
         x.write(class_scaffold().format(dir="\\".join(
