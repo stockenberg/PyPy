@@ -56,3 +56,7 @@ if blue_eyes.union(blond_hair) == blond_hair.union(blue_eyes):
 if blond_hair.difference(blue_eyes) == blue_eyes.difference(blond_hair):
     pass  # FALSE
 
+setlist = {"Hallo", "Test", "123", "asdasd"}
+# comprehension in sets
+setleng = {len(item) for item in setlist}
+

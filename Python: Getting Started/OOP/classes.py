@@ -2,11 +2,15 @@ class Empty:
     pass
 
 
-class ConstructorClass:
+## Methods are just functions in classes
+# instance methods are functions with the self keyword - can be called from an instance
 
+class InitializerClass:
+
+    # no constructor - initializer
     def __init__(self):
-        # instance Attribute
-        self.argument = "Test"
+        # instance Attribute is private by _ (convention)
+        self._argument = "Test"
         pass
 
 

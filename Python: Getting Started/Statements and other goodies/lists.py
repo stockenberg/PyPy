@@ -56,3 +56,11 @@ h.sort(key=len)
 h = sorted(h)
 h = reversed(h)
 
+word_list = ["Hallo", "du", "Dude"]
+lengths = []
+# List Comprehension
+[len(word) for word in word_list]
+# [expr(item) for item in iterable]
+''' ist das selbe wie: '''
+for word in word_list:
+    lengths.append(len(word))
