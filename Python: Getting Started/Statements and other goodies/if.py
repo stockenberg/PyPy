@@ -33,6 +33,8 @@ if number == 3 and bool:
 if number == 17 or bool:
     pass
 
+'''Conditional Expression'''
+result = "true_value" if True else "false_value"
 
 a = 1
 b = 2
